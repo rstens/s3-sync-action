@@ -2,7 +2,8 @@ name: "S3 Sync"
 description: "Sync a directory to an AWS S3 repository"
 author: jakejarvis
 runs:
-  using: docker://rstens/bddstack-run
+  using: docker
+  image: rstens/bddstack-run
 branding:
   icon: refresh-cw
   color: green
